@@ -7,6 +7,7 @@
   line-height: 18px;
   color: #515076;
   font-weight: 400;
+ 
 }
 
 .product-choose {
@@ -84,7 +85,7 @@
 }
 
 .background-flowers {
-  background-image: url("/product-card/img/bg-dandelion.png");
+  background-image: url("/img/bg-dandelion.png");
   background-repeat: no-repeat;
   background-size: 790px;
   width: 790px;
