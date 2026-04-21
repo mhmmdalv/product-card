@@ -3,11 +3,11 @@
 const productCards = document.querySelectorAll('.card-container');
 const changeColorAllCardButton = document.querySelector('#change-color-all-card');
 const greenColorHash = '#00F900';
-const blueCalorHash = '#0000FF'
+const blueCalorHash = '#0000FF';
 
 changeColorAllCardButton.addEventListener('click', () => {
-  productCards.forEach((card ) => card.style.backgroundColor = greenColorHash)
-}) 
+  productCards.forEach((card ) => card.style.backgroundColor = greenColorHash);
+})
 
 
 // Покраска одной карточки
@@ -17,14 +17,14 @@ const changeColorFirstCardButton = document.querySelector('#change-color-first-c
 
 changeColorFirstCardButton.addEventListener('click', () => {
   firstproductCard.style.backgroundColor = blueCalorHash;
-}) 
+})
 
 
 // Открыть google
 
 const openGoogleButton = document.querySelector('#open-google');
 
-openGoogleButton.addEventListener('click', openGoogle)
+openGoogleButton.addEventListener('click', openGoogle);
 
 function openGoogle() {
   const answer = confirm('Вы действительно хотите открыть Google?');
@@ -34,7 +34,7 @@ function openGoogle() {
   } else {
     return;
   }
-} 
+}
 
 // Вывод консоль лог
 
