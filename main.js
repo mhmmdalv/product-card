@@ -12,11 +12,11 @@ changeColorAllCardButton.addEventListener('click', () => {
 
 // Покраска одной карточки
 
-const firstproductCard = document.querySelector('.card-container');
+const firstProductCard = document.querySelector('.card-container');
 const changeColorFirstCardButton = document.querySelector('#change-color-first-card');
 
 changeColorFirstCardButton.addEventListener('click', () => {
-  firstproductCard.style.backgroundColor = blueCalorHash;
+  firstProductCard.style.backgroundColor = blueCalorHash;
 })
 
 

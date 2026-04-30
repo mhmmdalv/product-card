@@ -73,7 +73,7 @@
   line-height: 24px;
 }
 
-.parent {
+.main-class-of-cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -96,7 +96,7 @@
   bottom: 900px;
 }
 
-.non-marker {
+.remove-marker {
   list-style-type: none;
 }
 
