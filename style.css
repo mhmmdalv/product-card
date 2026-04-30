@@ -7,6 +7,7 @@
   line-height: 18px;
   color: #515076;
   font-weight: 400;
+ 
 }
 
 .product-choose {
@@ -72,7 +73,7 @@
   line-height: 24px;
 }
 
-.parent {
+.main-class-of-cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -84,7 +85,7 @@
 }
 
 .background-flowers {
-  background-image: url("/product-card/img/bg-dandelion.png");
+  background-image: url("/img/bg-dandelion.png");
   background-repeat: no-repeat;
   background-size: 790px;
   width: 790px;
@@ -95,7 +96,7 @@
   bottom: 900px;
 }
 
-.non-marker {
+.remove-marker {
   list-style-type: none;
 }
 
